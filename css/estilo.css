@@ -6,9 +6,11 @@
     
 }
 
+/*  HEADER  */
+
 header{
     width: 100%;
-    height: 20dvh;
+    height: 15dvh;
     background-color: #212121;
     display: flex;
     justify-content: center;
@@ -29,6 +31,7 @@ header .frace_logo{
 }
 
 
+/*  MAIN  */
 main{
     width: 100%;
     height: 60dvh;
@@ -49,7 +52,7 @@ main .info_contenedor{
     border-radius: 20px;
     background-color: #212121cb;
     text-align: center;
-    
+    border: #EEAF0C  solid 1px;
 }
 
 main .info_contenedor h1{
@@ -73,19 +76,49 @@ main .info_contenedor .contacto_wp{
     color: white;
     font-weight: 300;
     font-weight: 800;
-} 
-
-main .info_contenedor .contacto_wp:hover{
+} main .info_contenedor .contacto_wp:hover{
     background-color: #25d366;
 }
 
+main .info_contenedor .info_plomero{
+    color: white;
+}
 
+/*  FOOTER */
 footer{
     width: 100%;
-    height: 20dvh;
+    height: 25dvh;
     background-color: #212121;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+}
+
+footer .footer_contenedor{
+    width: 80%;
+    padding: 10px;
+}
+
+footer .footer_contenedor .llamanos_text{
+    color: #EEAF0C;
+}
+
+footer .footer_contenedor .numero_text{
+    color: #EEAF0C;
+    font-size: 30px;
+}
+
+footer .footer_contenedor .info_text{
+    color: white;
+    margin-top: 20px;
+    font-size: 15px;
+    background-color: #EEAF0C;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+footer .footer_contenedor .info_text p {
+    color: #212121;
 }
